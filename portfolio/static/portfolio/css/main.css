@@ -1,0 +1,71 @@
+.brand-logo {
+	font font-family: Kaushan Script;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#header {
+	position: relative;
+	height: 90vh;
+	background-color: #cccccc;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#header img {
+	width: 100%;
+	max-height: 100%;
+	position: absolute;
+}
+
+#header #myText {
+	position: absolute;
+	color: white;
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 25%;
+}
+
+#aboutPage p {
+	line-height: 28px;
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 720px){
+	#experience-1 {
+		font-size: 16px;
+	}
+
+	#experience-2 {
+		margin-top: 30vh;
+		font-size: 16px;
+	}
+
+	#experience-3 {
+		margin-top: 30vh;
+		font-size: 16px;
+	}
+
+	#experience-4 {
+		margin-top: 30vh;
+		font-size: 16px;
+	}
+
+	#experience-5 {
+		margin-top: 40vh;
+		font-size: 16px;
+	}
+
+	#experience-6 {
+		margin-top: 30vh;
+		font-size: 16px;
+	}
+}

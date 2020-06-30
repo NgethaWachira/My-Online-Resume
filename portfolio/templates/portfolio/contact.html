@@ -1,0 +1,52 @@
+<!-- {% extends 'portfolio/base.html' %}
+{% load materializecss %}
+
+{% block contact %}
+
+	<div class="container center-align" id="contact">
+		<br>
+		<div class="row">
+			<div class="col s12 m8">
+				<h6>I am currently taking on new projects. Would you like to discuss yours?</h6><br>
+				<h4>Contact Me</h4>
+				<form method="POST">
+					{% csrf_token %}
+					{{form|materializecss:'icon=person'}}
+					<br><br>
+
+					<button class="btn black-text lime accent-2" type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+
+
+{% endblock contact %}
+ -->
+
+
+<!-- 	<h6>I am currently taking on new projects. Would you like to discuss yours?</h6><br>
+	<h4>Contact Me</h4>
+	<div class="row">
+		<div class="col s12 m8">
+			<form action="{% url 'portfolio-contact' %}" method="POST">
+				{% csrf_token %}
+				{{form}}
+				<div class="input-field">
+					<input name="name" id="name" type="text">
+					<label for="name">First Name</label>
+				</div>
+				<div class="input-field">
+					<input name="email" id="email" type="email">
+					<label for="email">Email</label>
+				</div>
+				<div class="input-field">
+					<textarea name="message" id="message" class="materialize-textarea"></textarea>
+					<label for="message">Textarea</label>
+				</div>
+
+				<button class="btn black-text lime accent-2" type="submit">Send</button>
+			</form>
+		</div>
+	</div> -->
