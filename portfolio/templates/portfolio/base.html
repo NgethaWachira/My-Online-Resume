@@ -29,7 +29,7 @@
 			<nav class="grey darken-4">
 				<div class="container">
 					<div class="nav-wrapper">
-						<a href="/" class="brand-logo italic">James Ngetha</a>
+						<a href="/" class="brand-logo">Ngetha</a>
 						<a href="#mobile-links" data-target="mobile-links" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 							<li><a href="/">Home</a></li>
@@ -58,9 +58,9 @@
 
 	{% block header %}
 		<div id="header">
-			<img src="{% static 'portfolio/images/spike.jpg' %}" alt="Brick Wall" class="responsive-img">
+			<img src="{% static 'portfolio/images/spike.jpg' %}" alt="Behind The Scenes" class="responsive-img">
 			<div id="myText">
-				<h4>My name is</h4>
+				<h4>Hi there, i'm</h4>
 				<h1>James Ngetha</h1>
 				<h5 class="amber-text text-accent-2">A Geospatial Engineer and a Web Applications Developer</h5>
 			</div>
@@ -129,7 +129,7 @@
 		</div>
 		<br>
 
-		<div class="section" id="tools">
+		<div class="section hide-on-small-only" id="tools">
 			<div class="container">
 				<h4 class="amber-text text-accent-2 center-align">
 				Languages and Tools
@@ -150,47 +150,47 @@
 					<br><br>
 
 					<div id="one">
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/python.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/python.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/openlayers.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/openlayers.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/postgis.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/postgis.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/js.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/js.png' %}">
 						</div>
 					</div>
 
 					<div id="two">
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/sublime.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/sublime.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/postgre.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/postgre.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/webpack.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/webpack.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/qgis.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/qgis.png' %}">
 						</div>
 					</div>
 
 					<div id="three">
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/react.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/react.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/arcgis.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/arcgis.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/materialize.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/materialize.png' %}">
 						</div>
-						<div class="col s12 m3 img-box">
-							<img class="responsive-img slider-img" src="{% static 'portfolio/images/nodejs.png' %}">
+						<div class="col s12 m3">
+							<img class="responsive-img" src="{% static 'portfolio/images/nodejs.png' %}">
 						</div>
 					</div>
 				</div>
@@ -236,7 +236,7 @@
 
 
 	{% block footer %}
-		<div class="section">
+		<div class="section" id="footer">
 			<div class="container">
 				&copy; James Ngetha 2020
 				<a class="right white-text"> Developed and Designed by James Ngetha</a>
