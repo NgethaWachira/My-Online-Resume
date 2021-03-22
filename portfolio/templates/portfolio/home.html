@@ -1,16 +1,205 @@
-<!-- {% extends 'portfolio/base.html' %}
+{% extends 'portfolio/base.html' %}
 {% load static %}
 
 
-{% block header %}
+{% block content %}
 
-	<div id="header">
-		<img src="{% static 'portfolio/images/spike.jpg' %}" alt="Brick Wall" class="responsive-img">
-		<div id="myText">
-			<h4>My name is</h4>
-			<h1>James Ngetha</h1>
-			<h5 class="amber-text text-accent-2">A Geospatial Analyst and a Web Applications Developer</h5>
+	<div class="container section scrollspy" id="aboutPage">
+		<h4 class="amber-text text-accent-2 center-align" >About Me</h4>
+		<div class="col s12">
+			<div class="row valign-wrapper">
+				<div class="col s3 hide-on-small-only">
+					<img src="{% static 'portfolio/images/ngetha.jpg' %}" alt="Me" class="circle responsive-img">
+				</div>
+				<div class="col s10 m7">
+					<p>
+					I am a Geospatial Engineer with over four years of experience, proficient with advanced GIS suite of tools and database management systems, i'm also a Web Applications Developer with expertise in creating and designing user interfaces, developing back-end functionalities, testing and debugging and also optimizing web functionality that improve workflow efficiencies.
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
-{% endblock header %} -->
+
+	<div class="scrollspy" id="experience">
+		<br>
+		<div class="amber-text text-accent-2 center-align"><h4>Work Experience</h4></div>
+		<br><br>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 l5" id="experience-1">
+					<h5 class="center-align orange-text orange-accent-2">Nature Surf Systems</h5>
+					<h6 class="center-align orange-text orange-accent-3">Geospatial Engineer | Web Applications Developer</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: Feb 2019 &bull; Up-to-date</h6>
+					<p> Building web apps from concept all the way to completion, fashioning everything from the home page to site layout and function. Striving to create visually appealing sites that feature user-friendly design and clear navigation according to clients needs and specification.</p>
+				</div>
+				<div class="col s12 l5 right" id="experience-2">
+					<h5 class="center-align orange-text orange-accent-2">Ramani Geosystems</h5>
+					<h6 class="center-align orange-text orange-accent-3">2D/3D Mapping Technician</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: July 2018 &bull; Jan 2019</h6>
+					<p>I Used computer programs and software packages to prepare graphic reports, maps, and charts. I also analyzed data sets for daily decision-making procedures, Created, developed, and maintain databases. Used  maps and data sets for spatial analysis.</p>
+				</div>
+				<div class="col s12 l5" id="experience-3">
+					<h5 class="center-align orange-text orange-accent-2">ESRI Eastern Africa</h5>
+					<h6 class="center-align orange-text orange-accent-3">Technical Support</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: April 2017 &bull; July 2017</h6>
+					<p>Worked with ArcGIS products e.g. ArcMap, ArcPro, ArcGIS online and ArcGIS server. Published data online through sharing it as a map package or layer package using ArcGIS and also sharing content online. Data collection using various applications e.g. Collector for ArcGIS and ODK.</p>
+				</div>
+				<div class="col s12 l5 right" id="experience-4">
+					<h5 class="center-align orange-text orange-accent-2">RCMRD</h5>
+					<h6 class="center-align orange-text orange-accent-3">GIS Assistant</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: Sept 2016 &bull; Dec 2016</h6>
+					<p> Conducting image search and generating image reports from Digital Globe and Airbus Defense and Space (ADS) high-resolution image service providers on request by clients. Acquisition, processing and disseminating raster and vector datasets for internal and external users. Design, preparation and production of maps through vectorization of satellite images for commercial purposes and according to client needs</p>
+				</div>
+				<div class="col s12 l5" id="experience-5">
+					<h5 class="center-align orange-text orange-accent-2">Geosurv Systems Limited</h5>
+					<h6 class="center-align orange-text orange-accent-3">Cartography Assistant</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: May 2015 &bull; June 2016</h6>
+					<p>Planning of proposed subdivision of land parcels into a given number of portions according to client preferences and design. Carrying out of topographical survey of land by use of a total station and later planning of the same.</p>
+				</div>
+				<div class="col s12 l5 right" id="experience-6">
+					<h5 class="center-align orange-text orange-accent-2">Geodev Limited</h5>
+					<h6 class="center-align orange-text orange-accent-3">GIS and RS Intern</h6>
+					<h6 class="center-align lime-text lime-accent-2">Period: Jan 2015 &bull; April 2015</h6>
+					<p>Digitization of aerial photographs of Mombasa and Malindi County. Ground truthing of Mombasa and Malindi County. Generation of spot heights from overlaying aerial photographs. Large scale production of maps of Mombasa and Malindi County</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+
+	<div class="container center-align" id="education">
+		<div class="amber-text text-accent-2"><h4>Education</h4></div>
+		<div class="row">
+			<div class="col s12 m6 tuk">
+				<h5 class="orange-text orange-accent-2">Technical University of Kenya</h5>
+				<h6 class="orange-text orange-accent-3">School of Surveying and Geospatial Sciences</h6>
+				<h6 class="lime-text lime-accent-2">Period: 2015 &bull; 2018</h6>
+				<p>Bachelors of Technology, GeoInformation Technology</p>
+				<p>Undergraduate Project; "Use of thermal remote sensing for geothermal mapping in Menengai Area, Nakuru County".</p>
+
+				<h6 class="orange-text orange-accent-2">Kenya Institute of Surveying and Mapping</h6>
+				<h6 class="lime-text lime-accent-2">Period: 2012 &bull; 2014</h6>
+				<p>Diploma in Cartography</p>
+				<p>Diploma Project; "Use of GIS in determining the distribution of vegetation species in Lake Nakuru National Park".</p>
+			</div>
+
+			<ul class="col s12 m6 training">
+				<h5 class="orange-text orange-accent-2">Other Training</h5>
+				<li><p>Deep Dive into Modern Web Development (Fullstack) - <a href="https://fullstackopen.com/en" target="_blank">University of Helsinki (Online)</a></p></li>
+				<li><p>Web Programming with Python & Javascript - <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank">Edx</a></p></li>
+				<li><p>Web Security Fundamentals<a href="https://www.edx.org/course/web-security-fundamentals" target="_blank"> Edx</a></p></li>
+				<li><p>Complete Python Bootcamp - <a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank">Udemy</a></p></li>
+				<li><p>Introduction to Database Engineering - <a href="https://www.udemy.com/course/database-engines-crash-course/" target="_blank">Udemy</a></p></li>
+				<li><p>Introduction to Modern Database Systems - <a href="https://learn.saylor.org/course/view.php?id=93" target="_blank">Saylor.org</a></p></li>
+				<li><p>Remote Sensing and Digital Image Processing - <a href="https://rcmrd.org/introduction-to-earth-observation-remote-sensing-rs-digital-image-processing" target="_blank">RCMRD</a></p></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="section hide-on-small-only" id="tools">
+		<div class="container">
+			<h4 class="amber-text text-accent-2 center-align">
+			Languages and Tools
+			</h4>
+			<br><br>
+			<div class="row">
+				<ul class="tabs black">
+					<li class="tab col s2">
+						<a href="#one" class="orange-text orange-accent-2">One</a>
+					</li>
+					<li class="tab col s2 offset-s2">
+						<a href="#two" class="orange-text orange-accent-2">Two</a>
+					</li>
+					<li class="tab col s2 offset-s3">
+						<a href="#three" class="orange-text orange-accent-2">Three</a>
+					</li>
+				</ul>
+				<br><br>
+
+				<div id="one">
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/python.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/openlayers.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/postgis.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/js.png' %}">
+					</div>
+				</div>
+
+				<div id="two">
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/sublime.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/postgre.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/webpack.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/qgis.png' %}">
+					</div>
+				</div>
+
+				<div id="three">
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/react.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/arcgis.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/materialize.png' %}">
+					</div>
+					<div class="col s12 m3">
+						<img class="responsive-img" src="{% static 'portfolio/images/nodejs.png' %}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+
+
+	<div class="section container center-align scrollspy" id="contact">
+		<h6>I am currently taking on new projects. Would you like to discuss yours?</h6><br>
+		<h6>You can contact me on phone through:</h6>
+		<h5 class="teal-text text-lighten-2">+254729495475</h5>
+		<h6>Or by mail below;</h6>
+		<div class="row">
+			<div class="col s12 m8 offset-m2">
+				<form action="{% url 'portfolio:portfolio-contact' %}" method="POST">
+					{% csrf_token %}
+					{{form}}
+					<div class="input-field">
+						<i class="material-icons prefix">person</i>
+						<input name="name" id="name" type="text" class="white-text">
+						<label for="name">Your Name</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">email</i>
+						<input name="email" id="email" type="email" class="white-text">
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field">
+						<i class="material-icons prefix">message</i>
+						<textarea name="message" id="message" class="materialize-textarea white-text"></textarea>
+						<label for="message">Message</label>
+					</div>
+					<br>
+
+					<button class="btn black-text lime accent-2" type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<br>
+{% endblock %}

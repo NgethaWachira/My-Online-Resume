@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'materializecssform',
     'portfolio.apps.PortfolioConfig',
+    'clearcache',
 ]
 
 MIDDLEWARE = [

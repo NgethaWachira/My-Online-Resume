@@ -13,6 +13,9 @@ def about(request):
 def resume(request):
 	return render(request, 'portfolio/resume.html')
 
+def apps(request):
+	return render(request, 'portfolio/apps.html')
+
 def contact(request):
 	form = ContactForm()
 	if request.method == 'POST':

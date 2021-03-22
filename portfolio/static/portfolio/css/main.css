@@ -1,5 +1,6 @@
 .brand-logo {
 	font font-family: Kaushan Script;
+	margin-left: 10%;
 }
 
 body {
@@ -12,8 +13,6 @@ body {
 	height: 90vh;
 	background-color: #cccccc;
 	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -37,6 +36,25 @@ body {
 #aboutPage p {
 	line-height: 28px;
 	font-size: 16px;
+}
+
+#education .row {
+	margin-top: 3.5%;
+}
+
+#education .training {
+	margin-top: 4%;
+}
+
+#education .training a {
+	text-decoration: none;
+	color: #ffe0b2;
+}
+
+.apps {
+	background-color: white;
+	background-image: url("{% static 'portfolio/images/wall.jpg' %}");
+	color: black;
 }
 
 @media only screen and (min-width: 720px){
