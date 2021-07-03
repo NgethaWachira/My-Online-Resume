@@ -28,7 +28,7 @@
 					<li><a href="/">Home</a></li>
 					<li><a href="#aboutPage">About Me</a></li>
 					<li><a href="#experience">Resume</a></li>
-					<li><a href="apps/">Portfolio</a></li>
+					<li><a href="#apps">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="https://www.linkedin.com/in/James-Ngetha" target="_blank" class="tooltipped btn-floating btn-small blue accent-2" data-tooltip="LinkedIn">
 						<i class="social fab fa-linkedin"></i>
@@ -39,14 +39,14 @@
 				</ul>
 			</div>
 		</nav>
-		<ul class="sidenav" id="mobile-links">
-			<li><a href="/">Home</a></li>
-			<li><a href="#aboutPage">About Me</a></li>
-			<li><a href="#experience">Resume</a></li>
-			<li><a href="apps/">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
 	</div>
+	<ul class="sidenav" id="mobile-links">
+		<li><a href="/">Home</a></li>
+		<li><a href="#aboutPage">About Me</a></li>
+		<li><a href="#experience">Resume</a></li>
+		<li><a href="#apps">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
 
 		<div id="header">
 			<img src="{% static 'portfolio/images/spike.jpg' %}" alt="Behind The Scenes" class="responsive-img">
@@ -64,15 +64,9 @@
 	{% endblock %}
 
 
-	{% block apps %}
-
-	{% endblock %}
-
-
-	<div class="section" id="footer">
+	<div class="section center-align" id="footer">
 		<div class="container">
-			&copy; James Ngetha 2021
-			<a class="right white-text"> Developed and Designed by James Ngetha</a>
+			<a class="white-text"> Developed and Designed by James Ngetha</a>
 		</div>
 	</div>
 

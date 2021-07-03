@@ -8,10 +8,16 @@ body {
 	color: white;
 }
 
+#mobile-links {
+	width: 150px;
+}
+
 #header {
 	position: relative;
 	height: 90vh;
 	background-color: #cccccc;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -51,11 +57,19 @@ body {
 	color: #ffe0b2;
 }
 
-.apps {
-	background-color: white;
-	background-image: url("{% static 'portfolio/images/wall.jpg' %}");
-	color: black;
+.carousel {
+	padding: 0;
+	margin: 0;
 }
+
+#apps .card {
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	border-top: 10px solid #F0E68C;
+	border-bottom: 5px solid gray;
+	border-radius: 10px;
+
 
 @media only screen and (min-width: 720px){
 	#experience-1 {

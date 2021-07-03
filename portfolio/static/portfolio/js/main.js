@@ -3,4 +3,7 @@ $(document).ready(function() {
 	$('.tooltipped').tooltip();
 	$('.scrollspy').scrollSpy();
 	$('.tabs').tabs();
+	$('.carousel').carousel({
+		indicators: true
+	});
 });
